@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "0456",
+    "displayType": 2,
+    "title": "「感谢庆典」\\n特别直播开启",
+    "category": 4,
+    "header": "",
+    "content": "",
+    "jumpLink": "https://live.bilibili.com/5555734",
+    "bannerImageUrl": "https://web.hycdn.cn/announce/images/20251021/b9cd6121f4779165cf1bb8a831cf5509.png",
+    "displayTime": "2025-10-25",
+    "updatedAt": 1761045095
+  }
+}
