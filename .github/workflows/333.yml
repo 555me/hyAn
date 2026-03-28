@@ -1,0 +1,36 @@
+name: an
+
+on:
+  schedule:
+    - cron: 0 * * * *
+  workflow_dispatch:
+
+jobs:
+  fetch-and-store:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: s1
+      uses: actions/checkout@v6
+      
+    - name: s2
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: s3
+      run: pip install requests
+    - name: s4
+      run: python an.py
+
+    - name: s5
+      run: |
+        git config --local user.email "0101@github.com"
+        git config --local user.name "000"
+        git add .
+        if git diff-index --quiet HEAD --; then
+          echo "No changes to commit"
+        else
+          git commit -m "$(TZ='Asia/Shanghai' date +'%Y年%m月%d日%H:%M:%S')"
+          git push
+        fi
