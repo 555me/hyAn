@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "6811",
+    "displayType": 2,
+    "title": "限時聯動時裝開啟",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=shop&param1=SKINSHOP",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260331/1b871519d3e6446bb7c48f1d6b2067c8.png",
+    "displayTime": "2026-04-01",
+    "updatedAt": 1774964472
+  }
+}

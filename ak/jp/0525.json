@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "0525",
+    "displayType": 2,
+    "title": "スカウト\\n連合作戦",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=NORM_JP_38_0_9",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260330/14c144b261b9e4188e5be50dff358318.png",
+    "displayTime": "2026-04-01",
+    "updatedAt": 1774864759
+  }
+}
