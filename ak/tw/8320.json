@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "8320",
+    "displayType": 2,
+    "title": "定向甄選\\n限時機率提升",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=SPECIAL_TC_38_0_5",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260409/1ad8317c20c0568bb4db6ca603036728.jpg",
+    "displayTime": "2026-04-08",
+    "updatedAt": 1775702958
+  }
+}

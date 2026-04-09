@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "3476",
+    "displayType": 2,
+    "title": "時裝限時復刻",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=shop&param1=SKINSHOP",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260409/ff16c4ee3256df274e2ed06d535c4515.jpg",
+    "displayTime": "2026-04-08",
+    "updatedAt": 1775703130
+  }
+}
