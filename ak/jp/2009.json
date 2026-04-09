@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "2009",
+    "displayType": 2,
+    "title": "常設スカウト\\n4.10更新",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=DOUBLE_JP_38_0_10",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260407/10cc71464ce12daf86bec524342a65cf.png",
+    "displayTime": "2026-04-10",
+    "updatedAt": 1775560009
+  }
+}
