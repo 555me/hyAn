@@ -21,7 +21,7 @@ jobs:
     - name: s3
       run: pip install requests
     - name: s4
-      run: 
+      run: |
         python an.py cn
         git config --local user.email "0101@github.com"
         git config --local user.name "000"
