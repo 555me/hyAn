@@ -21,10 +21,8 @@ jobs:
     - name: s3
       run: pip install requests
     - name: s4
-      run: python an.py cn
-
-    - name: s5
-      run: |
+      run: 
+        python an.py cn
         git config --local user.email "0101@github.com"
         git config --local user.name "000"
         git add .
@@ -35,7 +33,7 @@ jobs:
           git push
         fi
     
-    - name: s6
+    - name: s5
       run: |
         python an.py jp
         python an.py tw
