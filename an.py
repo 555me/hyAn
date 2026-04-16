@@ -1,10 +1,26 @@
 import requests
 import json
 import os
+import sys
 from datetime import datetime, timezone, timedelta
 
+SERVER_CONFIGS = {
+    "cn": {
+        "base_url": "https://ak-webview.hypergryph.com/api/game",
+        "dir": "an"
+    },
+    "jp": {
+        "base_url": "https://ak-webview.arknights.jp/api/game",
+        "dir": "jp"
+    },
+    "tw": {
+        "base_url": "https://ak-webview-tw.gryphline.com/api/game",
+        "dir": "tw"
+    }
+}
+
 ORGtime = datetime.now(timezone(timedelta(hours=8)))
-time = ORGtime.strftime("%Y-%m-%d %H:%M:%S")
+time_str = ORGtime.strftime("%Y-%m-%d %H:%M:%S")
 
 def fetch_api(url):
     try:
@@ -12,42 +28,41 @@ def fetch_api(url):
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"[{time}][400] API请求失败: {str(e)}")
+        print(f"[{time_str}][400] API请求失败: {str(e)}")
         return None
 
-def process_bulletins():
-    targets = ["IOS", "Bilibili","Android","Windows"]
+def process_bulletins(server_key):
+    config = SERVER_CONFIGS.get(server_key)
+    if not config:
+        print(f"未知服务器参数: {server_key}")
+        return
+
+    targets = ["IOS", "Bilibili", "Android", "Windows"]
+    save_path = f"ak/{config['dir']}"
+    os.makedirs(save_path, exist_ok=True)
+
     for target in targets:
-        data1 = fetch_api(f"https://ak-webview.hypergryph.com/api/game/bulletinList?target={target}")
-        data2 = fetch_api(f"https://ak-webview.arknights.jp/api/game/bulletinList?target={target}")
-        data3 = fetch_api(f"https://ak-webview-tw.gryphline.com/api/game/bulletinList?target={target}")
-        if not data1 or not data1.get("data", {}).get("list"):
+        list_url = f"{config['base_url']}/bulletinList?target={target}"
+        data = fetch_api(list_url)
+        
+        if not data or not data.get("data", {}).get("list"):
             continue
             
-        os.makedirs("ak", exist_ok=True)
-        for item in data1["data"]["list"]:
+        for item in data["data"]["list"]:
             cid = item["cid"]
-            detail = fetch_api(f"https://ak-webview.hypergryph.com/api/game/bulletin/{cid}")
+            detail_url = f"{config['base_url']}/bulletin/{cid}"
+            detail = fetch_api(detail_url)
+            
             if detail:
-                with open(f"ak/an/{cid}.json", "w", encoding="utf-8") as f:
+                file_name = f"{save_path}/{cid}.json"
+                with open(file_name, "w", encoding="utf-8") as f:
                     json.dump(detail, f, ensure_ascii=False, indent=2)
-                    print(f"[{time}][0][cn] {cid}.json saved successful!")
-                    
-        for item in data2["data"]["list"]:
-            cid = item["cid"]
-            detail = fetch_api(f"https://ak-webview.arknights.jp/api/game/bulletin/{cid}")
-            if detail:
-                with open(f"ak/jp/{cid}.json", "w", encoding="utf-8") as f:
-                    json.dump(detail, f, ensure_ascii=False, indent=2)
-                    print(f"[{time}][0][jp] {cid}.json saved successful!")
-        for item in data3["data"]["list"]:
-            cid = item["cid"]
-            detail = fetch_api(f"https://ak-webview-tw.gryphline.com/api/game/bulletin/{cid}")
-            if detail:
-                with open(f"ak/tw/{cid}.json", "w", encoding="utf-8") as f:
-                    json.dump(detail, f, ensure_ascii=False, indent=2)
-                    print(f"[{time}][0][tw] {cid}.json saved successful!")
+                print(f"[{time_str}][0][{server_key}] {cid}.json saved successful!")
 
 if __name__ == "__main__":
-    print(f"[{time}][15]work start......")
-    process_bulletins()
+    if len(sys.argv) < 2:
+        print("请提供服务器参数 (cn/jp/tw)")
+    else:
+        target_server = sys.argv[1].lower()
+        print(f"[{time_str}][15] Work start for server: {target_server}...")
+        process_bulletins(target_server)
