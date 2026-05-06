@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "5714",
+    "displayType": 1,
+    "title": "データ更新\\nのお知らせ",
+    "category": 2,
+    "header": "データ更新のお知らせ",
+    "content": "<p>いつも『アークナイツ』をプレイしていただき、ありがとうございます。</p><p><span style=\"color:#d35400\">2026年5月8日（金）16:00</span> にて、データ更新を実施いたします。</p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆実施日時</span></span></strong></p><p><span style=\"color:#d35400\">2026年5月8日（金）16:00 ~ 16:10</span></p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆対応内容の詳細</span></span></strong></p><p><strong>▼実装準備および更新内容</strong></p><p>・期間限定イベント「堅守協定：盟約」第二段階の開催準備</p><p><span style=\"color:#c0392b\">※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。</span></p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆注意事項</span></span></strong></p><p>・データ更新の開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うようお願いいたします。</p><p>・データ更新の開始時間前に、『アークナイツ』を終了するようお願いいたします。</p><p>・データ更新の日時は、前後する場合がございます。</p><p>・データ更新における対応内容は、予告なく変更する場合がございます。</p><hr/><p>今後とも『アークナイツ』をよろしくお願いいたします。</p><p>『アークナイツ』運営チーム</p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20200115/3ff4e01148f0abb084d9fb853cec9259.jpg",
+    "displayTime": "2026-05-06",
+    "updatedAt": 1777288348
+  }
+}
