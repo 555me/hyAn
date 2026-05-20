@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "5713",
+    "displayType": 1,
+    "title": "データ更新\\nのお知らせ",
+    "category": 2,
+    "header": "データ更新のお知らせ",
+    "content": "<p>いつも『アークナイツ』をプレイしていただき、ありがとうございます。</p><p><span style=\"color:#d35400\">2026年5月21日（木）16:00 </span>にて、データ更新を実施いたします。</p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆実施日時</span></span></strong></p><p><span style=\"color:#d35400\">2026年5月21日（木）16:00 ~ 16:10</span></p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆対応内容の詳細</span></span></strong></p><p><strong>▼実装準備および更新内容</strong></p><p>・サイドストーリー「約束されざる地」の開催準備</p><p>・イベントスカウト「上の空600メートル」の開催準備</p><p>・コーデ、インテリアテーマ、期間限定パックの販売準備</p><p>・回想秘録&amp;逆理演算の追加</p><p>・一部職分にて特殊モジュールの追加</p><p>・資格証交換所の更新</p><p>・新たな記録復元の追加</p><p>・常設スカウトの更新</p><p>・常設統合戦略「歳の界園志異」の月次更新</p><p>・中堅スカウトの更新</p><p><span style=\"color:#c0392b\">※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。</span></p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆注意事項</span></span></strong></p><p>・データ更新の開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うようお願いいたします。</p><p>・データ更新の開始時間前に、『アークナイツ』を終了するようお願いいたします。</p><p>・データ更新の日時は、前後する場合がございます。</p><p>・データ更新における対応内容は、予告なく変更する場合がございます。</p><hr/><p>今後とも『アークナイツ』をよろしくお願いいたします。</p><p>『アークナイツ』運営チーム</p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20200115/3ff4e01148f0abb084d9fb853cec9259.jpg",
+    "displayTime": "2026-05-20",
+    "updatedAt": 1778666230
+  }
+}
