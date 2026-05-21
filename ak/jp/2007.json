@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "2007",
+    "displayType": 2,
+    "title": "上の空\\n600メートル",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=SINGLE_JP_39_0_5",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260520/4d43ace0c2b5b2a8c99aca63cce1b3a7.png",
+    "displayTime": "2026-05-21",
+    "updatedAt": 1779257187
+  }
+}
