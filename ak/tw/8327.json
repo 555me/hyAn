@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "8327",
+    "displayType": 5,
+    "title": "SKPORT\\n6月簽到啟動",
+    "category": 4,
+    "header": "",
+    "content": "",
+    "jumpLink": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fgame.skport.com%252Farknights%252Fsign-in%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dsignin",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260601/071d4af22ab300d070a3f4d23c1ca80e.jpg",
+    "displayTime": "2026-06-03",
+    "updatedAt": 1780304115
+  }
+}
