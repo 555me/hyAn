@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "1198",
+    "displayType": 2,
+    "title": "復刻時裝限時上架",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=shop&param1=SKINSHOP",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260610/c72aa3c7c101e579060540a1de048ab5.png",
+    "displayTime": "2026-06-10",
+    "updatedAt": 1781060775
+  }
+}

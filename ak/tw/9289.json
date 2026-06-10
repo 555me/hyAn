@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "9289",
+    "displayType": 2,
+    "title": "新裝限時上架",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=shop&param1=SKINSHOP",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260610/0f15938f68555fad9185d378b717acdf.png",
+    "displayTime": "2026-06-10",
+    "updatedAt": 1781060974
+  }
+}
