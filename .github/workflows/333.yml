@@ -1,9 +1,9 @@
 name: an
 
 on:
-  schedule:
-    - cron: 0 * * * *
   workflow_dispatch:
+  repository_dispatch:
+    types: [akan_cf] 
 
 jobs:
   fetch-and-store:
