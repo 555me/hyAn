@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "3449",
+    "displayType": 2,
+    "title": "止まった時の中で",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=SINGLE_JP_40_0_1",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260617/99a8d1095c5c92a723e549e37309a239.png",
+    "displayTime": "2026-06-22",
+    "updatedAt": 1781694631
+  }
+}
