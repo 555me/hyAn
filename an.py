@@ -19,16 +19,13 @@ SERVER_CONFIGS = {
     }
 }
 
-ORGtime = datetime.now(timezone(timedelta(hours=8)))
-time_str = ORGtime.strftime("%Y-%m-%d %H:%M:%S")
-
 def fetch_api(url):
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"[{time_str}][400] API请求失败: {str(e)}")
+        print(f"[400] API请求失败: {str(e)}")
         return None
 
 def process_bulletins(server_key):
@@ -54,15 +51,16 @@ def process_bulletins(server_key):
             detail = fetch_api(detail_url)
             
             if detail:
+                time = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
                 file_name = f"{save_path}/{cid}.json"
                 with open(file_name, "w", encoding="utf-8") as f:
                     json.dump(detail, f, ensure_ascii=False, indent=2)
-                print(f"[{time_str}][0][{server_key}] {cid}.json saved successful!")
+                print(f"[{time}][{server_key}:{targrt}] {cid}.json saved successful!")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("请提供服务器参数 (cn/jp/tw)")
     else:
         target_server = sys.argv[1].lower()
-        print(f"[{time_str}][15] Work start for server: {target_server}...")
+        print(f"[15] Work start for server: {target_server}...")
         process_bulletins(target_server)
