@@ -55,7 +55,7 @@ def process_bulletins(server_key):
                 file_name = f"{save_path}/{cid}.json"
                 with open(file_name, "w", encoding="utf-8") as f:
                     json.dump(detail, f, ensure_ascii=False, indent=2)
-                print(f"[{time}][{server_key}:{targrt}] {cid}.json saved successful!")
+                print(f"[{time}][{server_key}:{target}] {cid}.json saved successful!")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
