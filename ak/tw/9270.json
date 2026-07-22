@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "9270",
+    "displayType": 2,
+    "title": "時裝回顧展\\n限時開啟",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=shop&param1=SKINSHOP",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260722/532506e49f0e0be78ddbfc94444a081c.jpg",
+    "displayTime": "2026-07-22",
+    "updatedAt": 1784690563
+  }
+}
