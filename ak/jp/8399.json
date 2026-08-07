@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "8399",
+    "displayType": 1,
+    "title": "PC版\\nリリース決定",
+    "category": 1,
+    "header": "PC版『アークナイツ』リリース決定",
+    "content": "<p><span style=\"font-size:1rem\">いつも『アークナイツ』をプレイしていただき、ありがとうございます。</span></p><p><span style=\"font-size:1rem\"><span style=\"color:#d35400\">2026年8月13日（木）10:00</span>より、PC版『アークナイツ』のサービスを開始します。</span></p><hr/><p><strong><span style=\"color:#003ba5\"><span style=\"font-size:1.25rem\">◆PC版のご利用方法</span></span></strong></p><p><span style=\"font-size:1rem\">『アークナイツ』公式サイトからPC版インストーラーをダウンロードいただき、インストール後にランチャーからゲームを起動することで遊ぶことができます。</span></p><hr/><p><span style=\"color:#003ba5\"><strong><span style=\"font-size:1.25rem\">◆必要スペックおよび推奨スペック</span></strong></span></p><p><span style=\"font-size:1rem\">・OS：Windows 10（64bit）または Windows 11（64bit）        </span></p><p><span style=\"font-size:1rem\">・CPU</span></p><p><span style=\"font-size:1rem\">【必要動作環境】Intel Core i3-6100 または同等性能以上</span></p><p><span style=\"font-size:1rem\">【推奨環境】Intel Core i5-8400 相当以上</span></p><p><span style=\"font-size:1rem\">・GPU</span></p><p><span style=\"font-size:1rem\">【必要動作環境】NVIDIA GeForce GTX 750 Ti または同等性能以上</span></p><p><span style=\"font-size:1rem\">【推奨環境】NVIDIA GeForce GTX 1060 相当以上</span></p><p><span style=\"font-size:1rem\">・メモリ</span></p><p><span style=\"font-size:1rem\">【必要・推奨動作環境】8GB以上</span></p><p><span style=\"font-size:1rem\">・DirectX：DirectX 11.1以降        </span></p><p><span style=\"font-size:1rem\">・ストレージ：30GB以上の空き容量（インストール時は追加で20GB以上の空き容量が必要）        </span></p><p><span style=\"font-size:1rem\">・その他：GPUドライバーは最新バージョンへのアップデートを推奨</span></p><hr/><p><span style=\"font-size:1rem\">今後とも『アークナイツ』をよろしくお願いいたします。</span></p><p><span style=\"font-size:1rem\">『アークナイツ』運営チーム</span></p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260806/f03d6ba0bb4c1a28fe752389a82d418e.png",
+    "displayTime": "2026-08-07",
+    "updatedAt": 1785996973
+  }
+}
