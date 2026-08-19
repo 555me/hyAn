@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "8398",
+    "displayType": 1,
+    "title": "メンテナンスの\\nお知らせ",
+    "category": 2,
+    "header": "メンテナンスのお知らせ",
+    "content": "<p>いつも『アークナイツ』をプレイしていただき、ありがとうございます。<br/><span style=\"color:#f39c12\">2026年8月20日（木）16:00</span> にて、メンテナンスを実施いたします。</p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆実施日時</strong></span></span><br/><span style=\"color:#f39c12\">2026年8月20日（木）16:00 ~ 17:00</span></p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆対応内容の詳細</strong></span></span><br/><strong>▼実装準備および更新内容</strong><br/>・期間限定イベント「堅守協定：盟約」　後期の実装準備<br/>・イベントスカウト「連合作戦」の開催準備<br/>・コーデ、期間限定パックの販売準備<br/>・中堅スカウトの更新<br/><span style=\"color:#c0392b\">※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。</span></p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆注意事項</strong></span></span><br/>・メンテナンス中は『アークナイツ』を削除しないようお願いいたします。<br/>・メンテナンス中は『アークナイツ』をプレイできません。<br/>・メンテナンス開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うようお願いいたします。<br/>・メンテナンス開始時間前に、『アークナイツ』を終了するようお願いいたします。<br/>・メンテナンスの開始日時および終了日時は、前後する場合がございます。<br/>・メンテナンスにおける対応内容は、予告なく変更する場合がございます。<br/>お手数をおかけいたしますが、ご理解とご協力の程よろしくお願い申し上げます。<br/>『アークナイツ』運営チーム</p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20200224/95d33d25bd82fc74233d02b64f92e19a.png",
+    "displayTime": "2026-08-19",
+    "updatedAt": 1787033309
+  }
+}
