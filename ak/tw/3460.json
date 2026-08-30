@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "3460",
+    "displayType": 1,
+    "title": "GPG客戶端\\n更新通知",
+    "category": 2,
+    "header": "GooglePlay PC版更新通知",
+    "content": "<p>親愛的博士：<br/>因對遊戲進行版本升級，我們將於<span style=\"color:#d83931\">08月31日16:00</span>暫時下架GooglePlay PC版，屆時在GooglePlay PC平台暫時無法搜尋到《明日方舟》，後續上線時間還請關注遊戲最新公告，給各位博士帶來不便，敬請見諒！<br/><br/><br/>◆對於已經安裝GooglePlay PC版的博士，在下架後依然可以透過GooglePlay PC平台上繼續遊玩<br/>◆未安裝GooglePlay PC版的博士，建議更換至Google移動端或其他設備遊玩<br/><br/><br/>若博士遊戲過程中發現任何問題，可透過客服中心與我們聯繫：<br/>客服中心：遊戲內左上角「設置」-「帳戶」-「客服中心」</p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20200625/3ff4e01148f0abb084d9fb853cec9259.jpg",
+    "displayTime": "2026-08-30",
+    "updatedAt": 1788063995
+  }
+}
