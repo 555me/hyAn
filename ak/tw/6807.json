@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "6807",
+    "displayType": 4,
+    "title": "近期版本\\n問卷調查",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "https://survey.gryphline.com/s/fefc35f264968a458eb23e96d4ebcb69",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20260831/2f05907fdbfc120a62adffe01f22f101.jpg",
+    "displayTime": "2026-09-01",
+    "updatedAt": 1788158250
+  }
+}
