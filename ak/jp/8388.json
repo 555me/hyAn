@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "8388",
+    "displayType": 1,
+    "title": "データ更新\\nのお知らせ",
+    "category": 2,
+    "header": "データ更新のお知らせ",
+    "content": "<p>いつも『アークナイツ』をプレイしていただき、ありがとうございます。<br/><span style=\"color:#f39c12\">2026年9月2日（水）16:00</span> にて、データ更新を実施いたします。<br/></p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆実施日時</strong></span></span><br/><span style=\"color:#f39c12\">2026年9月2日（水）16:00 ~ 16:10</span><br/></p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆対応内容の詳細</strong></span></span><br/><strong>▼実装準備および更新内容</strong><br/>・期間限定イベント「堅守協定：盟約」第二段階の開催準備<br/>・コーデの販売準備<br/>・中堅スカウトの更新<br/>・常設スカウトの更新<br/><span style=\"color:#c0392b\">※ 各イベントの開催日時および詳細は、別途お知らせをご確認ください。</span><br/><strong>▼『端末』画面および戦闘に関する更新内容</strong><br/>・「堅守協定：盟約」において、新たな戦術を追加<br/>・「堅守協定：盟約」において、新たなシミュレーション種類「究極」を追加</p><hr/><p><span style=\"font-size:1.25rem\"><span style=\"color:#003ba5\"><strong>◆注意事項</strong></span></span><br/>・データ更新の開始時間前に、連携IDと連携コードを控えるなど、データ連携を予め行うようお願いいたします。<br/>・データ更新の開始時間前に、『アークナイツ』を終了するようお願いいたします。<br/>・データ更新の日時は、前後する場合がございます。<br/>・データ更新における対応内容は、予告なく変更する場合がございます。</p><hr/><p>今後とも『アークナイツ』をよろしくお願いいたします。<br/>『アークナイツ』運営チーム</p>",
+    "jumpLink": "",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20200115/3ff4e01148f0abb084d9fb853cec9259.jpg",
+    "displayTime": "2026-09-01",
+    "updatedAt": 1788228602
+  }
+}
