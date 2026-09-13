@@ -29,20 +29,25 @@ jobs:
         if git diff-index --quiet HEAD --; then
           echo "No changes to commit"
         else
-          git commit -m "$(TZ='Asia/Shanghai' date +'%Y年%m月%d日%H:%M:%S')"
+          git commit -m "$(TZ='Asia/Shanghai' date +'[cn] %Y年%m月%d日%H:%M:%S')"
           git push
         fi
     
     - name: s5
       run: |
         python an.py jp
-        python an.py tw
-        git config --local user.email "0101@github.com"
-        git config --local user.name "000"
         git add .
         if git diff-index --quiet HEAD --; then
           echo "No changes to commit"
         else
-          git commit -m "$(TZ='Asia/Shanghai' date +'%Y年%m月%d日%H:%M:%S')"
+          git commit -m "$(TZ='Asia/Shanghai' date +'[jp] %Y年%m月%d日%H:%M:%S')"
+          git push
+        fi
+        python an.py tw
+        git add .
+        if git diff-index --quiet HEAD --; then
+          echo "No changes to commit"
+        else
+          git commit -m "$(TZ='Asia/Shanghai' date +'[tw] %Y年%m月%d日%H:%M:%S')"
           git push
         fi
