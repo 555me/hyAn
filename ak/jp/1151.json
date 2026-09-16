@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "1151",
+    "displayType": 2,
+    "title": "スカウト\\n道を拓く者",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=SINGLE_JP_41_0_7",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260914/0571bce55b6df5e266a6d925eeb2d2dd.png",
+    "displayTime": "2026-09-16",
+    "updatedAt": 1789394610
+  }
+}
