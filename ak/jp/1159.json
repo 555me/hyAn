@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "1159",
+    "displayType": 2,
+    "title": "スカウト\\n約諾",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=LIMITED_JP_42_0_1",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20260923/962dcf6a97e61897ddbff7a68877b55c.png",
+    "displayTime": "2026-10-14",
+    "updatedAt": 1791881527
+  }
+}
