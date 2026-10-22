@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "5707",
+    "displayType": 2,
+    "title": "常設スカウト\\n10.23更新",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=DOUBLE_JP_42_0_2",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20261021/909ac471630e7ed6bdfcd152cf0531db.png",
+    "displayTime": "2026-10-23",
+    "updatedAt": 1792577960
+  }
+}
