@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "5706",
+    "displayType": 2,
+    "title": "スカウト\\n幽境を征く狩人",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "uniwebview://move?target=recruit&param1=LINKAGE_JP_42_0_5",
+    "bannerImageUrl": "https://ark-jp-static-online.yo-star.com/announce/images/20261111/03137461836825ce8c5c64e7f531bbcd.png",
+    "displayTime": "2026-11-16",
+    "updatedAt": 1794481744
+  }
+}
