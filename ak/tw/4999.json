@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "code": 0,
+  "msg": "",
+  "data": {
+    "cid": "4999",
+    "displayType": 4,
+    "title": "綜合調查\\n問卷填寫",
+    "category": 1,
+    "header": "",
+    "content": "",
+    "jumpLink": "https://survey.gryphline.com/s/v3/ea0c6d8ae589155bd180dddfcd348f11",
+    "bannerImageUrl": "https://ak-tw.hg-cdn.com/announce/images/20261119/6b5a1c575f7d44cd5c0b1ee2293b9e36.jpg",
+    "displayTime": "2026-11-20",
+    "updatedAt": 1795082576
+  }
+}
